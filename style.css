@@ -1,0 +1,31 @@
+#capsule{
+    
+    background-color: skyblue;
+    width: 300px;
+    height: 10px;
+    border-radius: 25px;
+
+    
+}
+#content{
+    width: 10%;
+    height: 100%;
+    background-color: red;
+    border-radius: 100px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}
+#center{
+    position:absolute;
+    top: 50%;
+    right: 44%;
+    transform: translate(-50%,-50%);
+
+}
+#center p{
+    text-align: center;
+    font-weight: 900;
+    width: 100%;
+    opacity: 0;
+    
+    
+}
